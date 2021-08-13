@@ -2,6 +2,8 @@
 import { Constants } from './constants';
 import { AccountType } from './enums';
 
+//abstracting serves as foundation adn this class will not be instantiated
+
 export abstract class BankAccount implements Account {
     id: number;
     title: string;
