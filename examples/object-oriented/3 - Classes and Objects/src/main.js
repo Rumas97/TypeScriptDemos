@@ -5,7 +5,7 @@ var renderer_1 = require("./scripts/renderer");
 var Main = /** @class */ (function () {
     function Main( /* private renderer: Renderer */) {
         // Create CheckingAccount instance
-        this.checkingAccount = new checking_account_1.CheckingAccount('John Doe Checking');
+        this.checkingAccount = new checking_account_1.CheckingAccount('Jane Doe Checking');
         this.renderAccount();
     }
     Main.prototype.renderAccount = function () {

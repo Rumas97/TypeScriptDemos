@@ -5,8 +5,10 @@ class Main {
     checkingAccount: CheckingAccount;
 
     constructor(/* private renderer: Renderer */) {
+        
         // Create CheckingAccount instance
-        this.checkingAccount = new CheckingAccount('John Doe Checking');
+        this.checkingAccount = new CheckingAccount('Jane Doe Checking');
+
         this.renderAccount();
     }
 

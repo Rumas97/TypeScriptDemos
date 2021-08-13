@@ -21,6 +21,8 @@ export class SavingsAccount extends BankAccount {
         };
     }
 
+    //overriding the deposit function from the parent class
+
     deposit(amount: number) {
         let newAmount = amount + (amount * (this._interestRate / 100));
         this.balance += newAmount;
